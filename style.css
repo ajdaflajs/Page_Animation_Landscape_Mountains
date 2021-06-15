@@ -3,3 +3,35 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to left, #ba7453, #d1a984);
+  z-index: -1;
+}
+/* 100vh whole screen */
+/* z-index: 1 = in the front, -1 = in the back */
+
+nav {
+  display: grid;
+  grid-template-columns: 10% 1fr 1fr 10%;
+  min-height: 10vh;
+  color: white;
+  align-items: center;
+}
+
+#logoText {
+  grid-column: 2/3;
+  font-size: 24px;
+}
+/*grid-column 2/3 means that the #logoText was moved to the intersection between the 2 and 3 column*/
+
+.mountain {
+  justify-self: end;
+  width: 40px;
+  height: 45px;
+}
