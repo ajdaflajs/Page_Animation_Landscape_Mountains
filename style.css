@@ -100,15 +100,15 @@ footer {
   background: white;
   border-radius: 50px;
   cursor: pointer;
-  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
   transition: all 0.5s ease-in-out;
 }
 
-.wrapper .button:hover {
-  width: 200px;
+.button:hover {
+  width: 160px;
 }
 
-.wrapper .button .icon {
+.button .icon {
   display: inline-block;
   height: 35px;
   width: 35px;
@@ -118,12 +118,12 @@ footer {
   text-align: center;
 }
 
-.wrapper .button .icon i {
+.button .icon i {
   font-size: 20px;
   line-height: 35px;
 }
 
-.wrapper .button span {
+.button span {
   font-size: 20px;
   font-weight: 500;
   line-height: 35px;
