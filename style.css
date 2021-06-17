@@ -79,3 +79,11 @@ section {
 }
 /* content: ""; creates a new div like element so we can put overlay effect over our previous element*/
 /* position: absolute; reacts with position: relative for .heroImage element*/
+
+/* Social Media Icons*/
+
+footer {
+  display: grid;
+  place-items: center;
+  z-index: 4;
+}
